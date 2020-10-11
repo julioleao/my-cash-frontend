@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const BASE_URL = 'https://my-cash-backend.herokuapp.com/api';
+export const BASE_URL = `${process.env.REACT_APP_API_URL}/api`;
 export const BILLING_SUMMARY_FETCHED = 'BILLING_SUMMARY_FETCHED';
 
 export function getSummary() {

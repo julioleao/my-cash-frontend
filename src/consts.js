@@ -1,4 +1,4 @@
 export default {
-  API_URL: 'https://my-cash-backend.herokuapp.com/api',
-  OAPI_URL: 'https://my-cash-backend.herokuapp.com/oapi',
+  API_URL: `${process.env.REACT_APP_API_URL}/api`,
+  OAPI_URL: `${process.env.REACT_APP_API_URL}/oapi`,
 };
